@@ -11,6 +11,3 @@ def reverseWord(s):
         j -= 1
     p=''.join([i for i in s])
     return p
-
-s = input()
-print(reverseWord(s))
